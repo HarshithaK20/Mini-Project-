@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>Sales order</h1>
+           <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div id="mainsection">
+<button id="CustomerButton">CUSTOMER</button>
+<button id="ProductButton">PRODUCT</button>
+<button id="OrderListButton">ORDERLIST</button>
+</div>
+
+<div id="customerGetAll"></div>
+
+ 
+<script type="text/javascript">
+   document.getElementById("CustomerButton").onclick = function () {
+       window.location.href = "Getcustomer.html";
+   };
+    </script>
+
+<script type="text/javascript">
+   document.getElementById("ProductButton").onclick = function () {
+       window.location.href = "Getproduct.html";
+   };
+    </script>
+    
+    <script type="text/javascript">
+   document.getElementById("OrderListButton").onclick = function () {
+       window.location.href = "Getorder.html";
+   };
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <h1>Welcome to Sales Order</h1>
+           <link rel="stylesheet" href="styles.css">
+   </head>
+   
+   <body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+           <img src="Login.png" alt="Avatar" class="avatar">
+       <div id="mainsection">
+       
+       <label>USERNAME:</label><br>
+       
+       <input type="text" id="name" placeholder="Enter UserName"><br>
+       <br>
+       <label>PASSWORD:</label><br>
+       <input type="password" id="password" placeholder="Enter password">
+        <button id="loginbutton" onclick="func()">LOGIN</button>
+       </div>
+       
+       
+
+       <script>
+       function func(){
+
+           var name=document.getElementById('name').value;
+           var pwd=document.getElementById('password').value;
+           if(name=='John' && pwd=='123'){
+           alert("Login Successful!")
+           window.location.href="Home.html"
+           }
+           else
+           alert("Invalid Username or password");
+           
+       }
+           </script>
+           
+   </body>
+</html>

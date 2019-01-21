@@ -1,0 +1,91 @@
+body,h1 {
+   font-family: Arial;
+   background-color: azure;
+   color: blue;
+}
+
+h2{
+font-family: Arial;
+   background-color: azure;
+   color: red;
+
+}
+
+input{
+   width: 100%;
+   padding: 5px;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: 1px solid blue;
+}
+
+table,tr,td,th {
+
+ border: 2px solid grey;
+ empty-cells: hide;
+ font-weight:bold;
+ height:25px;
+ 
+ 
+}
+
+table{width:40%;}
+ 
+ #TableHead{
+ height:50px;
+ font-weight: 900;
+ color:black;
+ font-size:25px;
+ background-color:azure;}
+tr:hover {background-color: white;}
+#mainsection{
+   position:absolute;
+   left:25%;
+   right:25%;
+  
+   
+}
+
+#loginbutton{
+position:relative;
+background-color:#4CAF50;
+width:50%;
+right:0px;
+padding: 15px 32px;
+font-size:16px;
+left:25%;
+bottom:20%;
+}
+#myTable{
+text-align:center;
+}
+
+/* Set a style for all buttons */
+
+
+button:hover {
+ opacity: 0.8;
+ 
+}
+
+
+
+
+img {
+ position: relative;
+ top: 5px;
+ 
+}
+
+img.avatar {
+   display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 250px;
+ height: 250px;
+
+
+ border-radius: 50%;
+}
+
+
